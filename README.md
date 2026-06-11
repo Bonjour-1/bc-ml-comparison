@@ -15,16 +15,6 @@
 - 特征数：30 个数值特征（细胞核均值/标准差/最差值各 10 个）
 - 任务：二分类（恶性 Malignant / 良性 Benign）
 
-## 组员与分工
-
-| 姓名 | 学号 | 算法 | 最优配置（GridSearchCV） | 子报告 |
-|------|------|------|-------------------------|--------|
-| 巨峰 | 2023217199 | 梯度提升 (GB) | `n=100, lr=0.1, max_depth=3` | `GradientBoosting/` |
-| 韩明扬 | 2023217191 | 支持向量机 (SVM) | `kernel=linear, C=100` | `机器学习/` |
-| 刘志富 | 2023216547 | 随机森林 (RF) | `n=100, max_depth=10, min_split=5, min_leaf=2` | `dazuoye/` |
-| 江玮 | 2023217211 | K 近邻 (KNN) | `k=4, uniform, L1距离` | `KNN-jw/` |
-| 周子烨 | 2023217220 | 多层感知机 (MLP) | `hidden=(100,50), relu, early_stopping` | `MLP/` |
-
 ## 实验结果
 
 统一数据划分（80/20 分层抽样，StandardScaler，random_state=42），各成员最优配置：
